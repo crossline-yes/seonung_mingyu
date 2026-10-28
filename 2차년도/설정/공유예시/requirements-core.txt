@@ -1,0 +1,3 @@
+# Plan/import/synthetic-test environment checked locally; no SAM weights or COLMAP included.
+numpy==2.3.5
+Pillow==12.3.0

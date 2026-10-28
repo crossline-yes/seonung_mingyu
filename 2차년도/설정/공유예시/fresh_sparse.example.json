@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "name": "collaboration_fresh_sparse_example_v1",
+  "workflow": "fresh_sparse",
+  "scene": "User-provided photos; illustrative config, no execution result",
+  "images": "data/local/images",
+  "image_list": "2차년도/설정/공유예시/images.example.txt",
+  "mask_generation": null,
+  "feature_masking": false,
+  "masks": null,
+  "mask_review": null,
+  "sparse_generation": {
+    "camera_model": "SIMPLE_RADIAL",
+    "single_camera": true,
+    "use_gpu": false,
+    "max_image_size": 2048,
+    "max_features": 8192,
+    "random_seed": 0,
+    "max_ratio": 0.8
+  },
+  "threads": 4,
+  "evaluation": null
+}
